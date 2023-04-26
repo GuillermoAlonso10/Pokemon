@@ -6,7 +6,7 @@ const path = require('path');
 // Luego le injectamos la conexion a sequelize.
 module.exports = (sequelize) => {
   // defino el modelo
-  sequelize.define('types', {
+  sequelize.define('Types', {
     
     id: {
       type: DataTypes.UUID,
