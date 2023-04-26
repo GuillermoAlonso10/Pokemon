@@ -7,6 +7,7 @@ const path = require('path');
 module.exports = (sequelize) => {
   // defino el modelo
   sequelize.define('types', {
+    
     id: {
       type: DataTypes.UUID,
       defaultValue: DataTypes.UUIDV4,
